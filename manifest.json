@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "Toggle designMode",
+    "description": "Base Level Extension",
+    "version": "1.0",
+    "icons": {
+        "48": "icons/edit_inactive.png"
+    },
+    "action": {
+        "default_title": "Design mode is not available"
+    },
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
