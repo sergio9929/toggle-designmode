@@ -1,10 +1,13 @@
 {
     "manifest_version": 3,
     "name": "Toggle designMode",
-    "description": "Base Level Extension",
+    "description": "Easily toggle your browser's native design mode",
     "version": "1.0",
     "icons": {
-        "48": "icons/edit_inactive.png"
+        "16": "icons/edit_inactive.png",
+        "32": "icons/edit_inactive.png",
+        "48": "icons/logo.png",
+        "128": "icons/logo.png"
     },
     "action": {
         "default_title": "Design mode is not available"
