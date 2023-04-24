@@ -9,6 +9,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 });
 
 function toggleDesignMode() {
+    document.documentElement.spellcheck = false
     if (document.designMode == 'off') {
         document.designMode = 'on'
         chrome.runtime.sendMessage({ designMode: 'on' });
