@@ -1,5 +1,5 @@
 # toggle-designmode
-Chrome extension to easily toggle  your browser's native design mode
+Chrome extension to easily toggle your browser's native design mode
 
 Download it here:
 - Edge: https://microsoftedge.microsoft.com/addons/detail/toggle-designmode/ehbkehkgeeeflinelfcfglkjoaifehbi
